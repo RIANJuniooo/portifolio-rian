@@ -176,7 +176,7 @@
                 <form action="https://api.staticforms.xyz/submit" method="post">
                     <div class="fields">
                         <div class="field name">
-                            <input type="text" placeholder="Nome" required>
+                            <input type="text" name="Nome" placeholder="Nome" required autocomplete="off">
                         </div>
                         <div class="field email">
                             <input type="email" placeholder="Email" required>
@@ -190,10 +190,11 @@
                            <textarea  cols="30" rows="10" placeholder="Escrever...." ></textarea>
                         </div>
                         <div class="button">
+                            
                             <button type="submit">Enviar</button>
 
                             <input type="hidden" name="accessKey" value="656b8c87-9cae-49dc-9956-cce14e1e2cbc">
-                            <input type="hidden" name="redirectTo" value="obrigado/obrigado.html">
+                            <input type="hidden" name="redirectTo" value="https://rianjunio.netlify.app/obrigado/obrigado">
                         </div>
                     </div>
                 </form>
